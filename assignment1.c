@@ -2,12 +2,12 @@
 #include <unistd.h>
 #include <sys/types.h>
 #include <stdlib.h>
-#include <string.h>
+#include <string.h>          
 #include <sys/wait.h>
 
 #define MAX_CHILDREN 4
-
-int main( void )
+//main function
+int main( void ) 
 {
    void signhandler(int sig);
     pid_t pid;
